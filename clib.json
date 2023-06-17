@@ -1,0 +1,9 @@
+{
+  "name": "sse2neon",
+  "version": "1.6.0",
+  "repo": "goodcleanfun/sse2neon",
+  "description": "A C/C++ header file that converts Intel SSE intrinsics to Arm/Aarch64 NEON intrinsics.",
+  "keywords": ["sse2", "neon", "arm"],
+  "license": "MIT",
+  "src": ["src/sse2neon.h"]
+}
