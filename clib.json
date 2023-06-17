@@ -1,9 +1,15 @@
 {
   "name": "sse2neon",
-  "version": "1.6.0",
-  "repo": "DLTcollab/sse2neon",
+  "version": "0.1.0",
+  "repo": "goodcleanfun/sse2neon",
   "description": "A C/C++ header file that converts Intel SSE intrinsics to Arm/Aarch64 NEON intrinsics.",
+  "dependencies": {
+    "sse2neon": {
+        "url": "https://github.com/DLTcollab/sse2neon.git",
+        "src": ["sse2neon.h"]
+    }
+  },
   "keywords": ["sse2", "neon", "arm"],
   "license": "MIT",
-  "src": ["sse2neon.h"]
+  "install": "make install"
 }
