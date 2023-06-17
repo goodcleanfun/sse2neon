@@ -6,7 +6,7 @@
   "install": "make install",
   "description": "A C/C++ header file that converts Intel SSE intrinsics to Arm/Aarch64 NEON intrinsics.",
   "dependencies": {
-    "sse2neon": {
+    "DLTcollab/sse2neon": {
         "url": "https://github.com/DLTcollab/sse2neon.git",
         "version": "1.6.0",
         "src": ["sse2neon.h"]

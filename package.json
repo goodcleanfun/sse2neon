@@ -1,6 +1,0 @@
-{
-  "name": "sse2neon",
-  "version": "1.6.0",
-  "repo": "goodcleanfun/sse2neon",
-  "install": "make clean install"
-}
