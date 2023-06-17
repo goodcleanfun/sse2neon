@@ -1,6 +1,6 @@
 {
   "name": "sse2neon",
-  "version": "0.1.0",
+  "version": "1.6.0",
   "repo": "goodcleanfun/sse2neon",
   "makefile": "Makefile",
   "install": "make install",
@@ -8,6 +8,7 @@
   "dependencies": {
     "sse2neon": {
         "url": "https://github.com/DLTcollab/sse2neon.git",
+        "version": "1.6.0",
         "src": ["sse2neon.h"]
     }
   },
